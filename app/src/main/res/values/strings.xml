@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GrowApp</string>
+    <string-array name="intervals">
+        <item>day(s)</item>
+        <item>week(s)</item>
+        <item>month(s)</item>
+        <item>year(s)</item>
+    </string-array>
+</resources>
