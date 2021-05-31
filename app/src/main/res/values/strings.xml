@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GrowApp</string>
+    <string name="app_name">Cultivate</string>
     <string-array name="intervals">
         <item>day(s)</item>
         <item>week(s)</item>

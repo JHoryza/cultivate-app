@@ -61,8 +61,8 @@ public class ManageHabitsActivity extends AppCompatActivity implements View.OnCl
         test.add(new Habit("Test 5: 1 day -4", 1, "day(s)", State.WATERED, new DateTime().minusDays(4).toString()));
         test.add(new Habit("Test 6: 1 day -5", 1, "day(s)", State.WATERED, new DateTime().minusDays(5).toString()));
 
-        habits = test;
-        //habits = databaseHandler.getAllHabits();
+        //habits = test;
+        habits = databaseHandler.getAllHabits();
         recyclerViewAdapter = new RecyclerViewAdapter(this, habits);
         rvHabit.setAdapter(recyclerViewAdapter);
         rvHabit.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
